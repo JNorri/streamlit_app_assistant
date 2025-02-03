@@ -37,7 +37,7 @@ streamlit run app.py
 3. Дождитесь предсказания.
 
 ## 🧠 Обучение модели
-Датасет: 
+Датасет: [Fruits and Vegetables Image Recognition Dataset] (https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
 
 Модель была обучена с использованием TensorFlow и библиотеки Keras. Для дообучения модели используйте `train.py`:
 ```bash
