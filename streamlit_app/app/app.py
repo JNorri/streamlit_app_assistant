@@ -128,7 +128,7 @@ if uploaded_file:
                 <div class="prediction-box">
                     <h2>✅ Предсказание:</h2>
                     <h1 style="color:#ff4b4b;">{predicted_class}</h1>
-                    <h3>🔍 Уверенность: <b>{confidence:.2%}</b></h3>
+                    <h3 style="color: black;">🔍 Уверенность: <b>{confidence:.2%}</b></h3>
                 </div>
                 """,
                 unsafe_allow_html=True
