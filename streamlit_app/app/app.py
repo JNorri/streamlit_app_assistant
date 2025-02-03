@@ -39,6 +39,7 @@ if uploaded_file:
     with tempfile.NamedTemporaryFile(delete=False) as tmp_file:
         tmp_file.write(uploaded_file.getvalue())
         img = cv2.imread(tmp_file.name)
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     
     try:
         # Предобработка и предсказание
