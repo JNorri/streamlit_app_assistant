@@ -104,13 +104,6 @@ if uploaded_file:
 
     try:
         with st.spinner("⏳ Обрабатываем изображение..."):  # 🔹 Анимация загрузки
-            time.sleep(1)
-
-            # Прогресс-бар
-            progress_bar = st.progress(0)
-            for percent in range(1, 101, 10):
-                time.sleep(0.1)
-                progress_bar.progress(percent)
 
             # 🔄 Предобработка и предсказание
             processed_img = preprocess_image(img)
