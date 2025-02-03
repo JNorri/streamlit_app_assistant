@@ -3,7 +3,7 @@ from pathlib import Path
 
 # Пути к файлам
 PRETRAINED_MODEL_PATH = Path("./model_data/trained_model/pretrained_model.keras")
-FINE_TUNED_MODEL_PATH = Path("fine_tuned_model.keras")
+FINE_TUNED_MODEL_PATH = Path("./model_data/trained_model/fine_tuned_model.keras")
 
 # Загрузка предобученной модели
 if PRETRAINED_MODEL_PATH.exists():
@@ -40,7 +40,7 @@ train_gen, val_gen, test_gen = create_generators(train_df, val_df, test_df)
 history = model.fit(
     train_gen,
     validation_data=val_gen,
-    epochs=5,
+    epochs=10,
     callbacks=[
         tf.keras.callbacks.EarlyStopping(
             monitor='val_loss',

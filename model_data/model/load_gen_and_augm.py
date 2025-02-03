@@ -119,7 +119,7 @@ def plot_training_history(history):
     return plot_path
 
 
-def save_pretrained_model(model, save_path="./model_data/train_model/pretrained_model.keras"):
+def save_pretrained_model(model, save_path="./model_data/trained_model/pretrained_model.keras"):
     """Сохранение предобученной модели"""
     # Создание директории, если она не существует
     save_dir = Path(save_path).parent

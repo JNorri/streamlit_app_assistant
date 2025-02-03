@@ -119,7 +119,7 @@ if uploaded_file:
             st.markdown(
                 f"""
                 <div class="prediction-box">
-                    <h2>✅ Предсказание:</h2>
+                    <h2 style="color: black;>✅ Предсказание:</h2>
                     <h1 style="color:#ff4b4b;">{predicted_class}</h1>
                     <h3 style="color: black;">🔍 Уверенность: <b>{confidence:.2%}</b></h3>
                 </div>
