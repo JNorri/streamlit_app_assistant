@@ -50,7 +50,7 @@ if uploaded_file:
         # Отображение результатов
         col1, col2 = st.columns(2)
         with col1:
-            st.image(img, caption="Загруженное изображение", use_column_width=True)
+            st.image(img, caption="Загруженное изображение", use_container_width=True)
         with col2:
             st.success(f"**Предсказание:** {predicted_class}")
             st.metric("Уверенность", f"{confidence:.2%}")
