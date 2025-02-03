@@ -1,0 +1,6 @@
+tensorflow>=2.10
+streamlit>=1.15
+pandas>=1.5
+matplotlib>=3.6
+opencv-python-headless>=4.6
+kaggle>=1.5
