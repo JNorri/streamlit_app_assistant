@@ -1,7 +1,0 @@
-streamlit==1.32.2
-scikit-learn==1.4.2
-opencv-python-headless==4.9.0.80
-scikit-image==0.22.0
-joblib==1.3.2
-numpy==1.26.4
-gdown==4.7.3  
