@@ -9,8 +9,8 @@ import os
 
 @st.cache_resource
 def load_model_and_classes():
-    model_path = Path("../../model_data/model/train_model/.keras")
-    class_path = Path("../../model_data/model/train_model/class_names.txt")
+    model_path = Path("../../model_data/model/trained_model/.keras")
+    class_path = Path("../../model_data/model/trained_model/class_names.txt")
     
     if not model_path.exists():
         st.error("Model file not found!")
