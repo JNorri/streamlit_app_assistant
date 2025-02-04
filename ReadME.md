@@ -30,6 +30,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+Streamlit-app: [Predictor](https://appappassistant-bmqt9pkrjgcuacasquew7v.streamlit.app/#6ceacf14)
 
 ## 📷 Использование
 1. Запустите приложение.
@@ -37,7 +38,7 @@ streamlit run app.py
 3. Дождитесь предсказания.
 
 ## 🧠 Обучение модели
-Датасет: [Fruits and Vegetables Image Recognition Dataset] (https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
+Датасет: [Fruits and Vegetables Image Recognition Dataset](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
 
 Модель была обучена с использованием TensorFlow и библиотеки Keras. Для дообучения модели используйте `train.py`:
 ```bash
